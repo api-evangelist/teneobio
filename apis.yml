@@ -1,8 +1,26 @@
 aid: teneobio
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/teneobio.png
 name: Teneobio
-description: Teneobio is a company surfaced as a portfolio company of lightspeed-venture-partners and
-  added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: Teneobio was a privately held, clinical-stage biotechnology company developing a new class
+  of biologics, Human Heavy-Chain Antibodies (UniAb), for the treatment of cancer, autoimmunity, and
+  infectious diseases. Its TeneoSeek discovery platform combined genetically engineered animals (UniRat,
+  OmniFlic), next-generation sequencing, bioinformatics, and high-throughput vector assembly. Teneobio
+  was surfaced as a portfolio company of Lightspeed Venture Partners and added to the API Evangelist
+  network as an enrichment lead. Amgen acquired Teneobio in October 2021 for $900 million upfront plus
+  up to $1.6 billion in contingent milestone payments; the company no longer operates independently and
+  publishes no live developer surface. This is a life-sciences / therapeutics company with no public API,
+  developer portal, or machine-readable API artifacts.
 url: https://raw.githubusercontent.com/api-evangelist/teneobio/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,14 +28,28 @@ x-backed-by:
 - lightspeed-venture-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: acquired
+x-acquired-by: amgen
+x-acquired-date: '2021-10-19'
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Biotechnology
+- Pharmaceuticals
+- Antibody Therapeutics
+- Life Sciences
+- Drug Discovery
+- Oncology
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
